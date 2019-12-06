@@ -13,10 +13,16 @@ body {
     padding: 0;
 }
 
-.main {
+.header {
     color: var(--content-primary);
     height: 100%;
     text-align: center;
+}
+
+.content {
+    color: var(--content-primary);
+    height: 100%;
+    text-align: left;
 }
 
 @media (min-width: 40em) {
@@ -37,6 +43,6 @@ hr {
     border-color: var(--content-secondary)
 }
 
-li {
-    list-style-type: none;
-}
+/*li {*/
+/*    list-style-type: none;*/
+/*}*/
