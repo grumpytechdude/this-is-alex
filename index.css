@@ -6,13 +6,6 @@
     --active: #EF8354;
 }
 
-body {
-    background: var(--background-dark);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 .header {
     color: var(--content-primary);
     height: 100%;
@@ -23,6 +16,15 @@ body {
     color: var(--content-primary);
     height: 100%;
     text-align: left;
+}
+
+.main {
+    background: var(--background-dark);
+    height: 100%;
+    margin: 0;
+    padding:0px 10px;
+    border-left: 1px var(--background-light) solid;
+    border-right: 1px var(--background-light) solid;
 }
 
 @media (min-width: 40em) {
