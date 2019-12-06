@@ -47,7 +47,7 @@
     <p>After that, I pointed my <a href="https://alex-sinclair.dev">alex-sinclair.dev</a> domain at their
         name servers, they automatically provisioned a https certificate with Lets Encrypt, and now a site have I!</p>
     <h2>Statistics</h2>
-    <p>Building a site with no JS is fun and all - but what's the point? Well, let's look at some pros!
+    <p>Building a site with no JS is fun and all - but what's the point? Well, let's look at some pros!</p>
     <ol>
         <li>Four seconds between pushing code, and it being live.</li>
         <li>No build steps, no Jenkins, nothin'.</li>
@@ -62,17 +62,18 @@
         <li>I'm helping to save the planet. <a
                 href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/">Data
             transfers use electricity</a>, and by not including tracking, or JS, or images, I keep my carbon
-            footprint small. At the time of writing, index.html is 1.8KB, and index.css is 689B. That's 2500 bytes.
+            footprint small. At the time of writing, index.html is 1.8KB, and index.css is 689B. That's 2500 bytes. I
+            noticed Netlify was returning a 404 page for my favicon at 2KB, so by uploading a favicon I actually save
+            bytes! Now it's 4 requests at 3.3KB transferred total.<br/>
             In Comparison, the google.com homepage makes 29 requests to load 439KB - to display 14 hyperlinks and a
             text box. And cnn.com makes 78 requests to load 2MB of data.
         </li>
     </ol>
-    </p>
-    <p>There are downsides, however. Plenty of them!
+    <p>There are downsides, however. Plenty of them!</p>
     <ol>
         <li>webhint.io shows <a href="https://webhint.io/scanner/2bf30aea-077f-4315-a77f-bbed270e6ebd">just how many
-            things I'm not in control of. Cache headers and cross-origin mostly. Netlify serves my content from
-            their CDN, so apparently css comes from cloudfront.net</a>. If I were running my own server, I could
+            things I'm not in control of</a>. Cache headers and cross-origin mostly. Netlify serves my content from
+            their CDN, so apparently css comes from cloudfront.net. If I were running my own server, I could
             setup all sorts of delightful headers.
         </li>
         <li>Duplication! With a build system we can inline css files, or auto-import them. Here, I have to setup
@@ -86,8 +87,9 @@
             CMS (or Markdown files) to render your site as static html. That aught to be just as fast as this little
             site.
         </li>
+        <li>This site is dull. Boring. There's no interactivity; no flashing menus. I'd never advocate a site like
+            this in a professional environment - but I think it's perfect for me, for now.</li>
     </ol>
-    </p>
 </div>
 </body>
 </html>
