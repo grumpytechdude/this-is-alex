@@ -13,7 +13,9 @@ function RichestManInBabylon() {
           content="Alex Sinclair's notes about the book 'The Richest Man in Babylon' by George Samuel Clason. Author: Alex Sinclair"
         />
       </Head>
-      <Heading fill>Notes on The Richest Man in Babylon</Heading>
+      <Heading level="1" fill>
+        Notes on The Richest Man in Babylon
+      </Heading>
       <Paragraph>
         First released in 1926, _The Richest Man in Babylon_ by George S. Clason
         is a book about financial advice, told through conversations and stories
@@ -24,13 +26,14 @@ function RichestManInBabylon() {
         in the last 4000 years. There's no get-rich-quick schemes here, just
         simple advice everybody can benefit from.
       </Paragraph>
-      <Heading level="3">
+      <Heading level="2">
         Rating: <Star />
         <Star />
         <Star />
         <Star />
         <Star />
       </Heading>
+      <Heading level="2">Takeaways and Notes</Heading>
       <Heading level="3" margin="small">
         Axioms
       </Heading>
