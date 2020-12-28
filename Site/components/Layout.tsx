@@ -11,7 +11,7 @@ function SidebarHeader() {
           label="Home"
           href="#"
           icon={
-            <Avatar src="http://1.gravatar.com/avatar/7645d22b73724aa2003df23e72f41921" />
+            <Avatar src="https://1.gravatar.com/avatar/7645d22b73724aa2003df23e72f41921" />
           }
         />
       </Link>
