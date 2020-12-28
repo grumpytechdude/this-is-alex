@@ -1,11 +1,23 @@
-import { Anchor, Avatar, Box, Button, Main, Sidebar } from "grommet";
-import { Help } from "grommet-icons";
+import {
+  Anchor,
+  Avatar,
+  Box,
+  Button,
+  Header,
+  Heading,
+  Main,
+  ResponsiveContext,
+  Sidebar,
+} from "grommet";
+import { Help, Menu } from "grommet-icons";
 import PostsList from "./PostsList";
 import Link from "next/link";
+import { Head } from "next/document";
+import { useEffect, useState } from "react";
 
-function SidebarHeader() {
+function SidebarHeader({ direction }) {
   return (
-    <Box direction="row">
+    <Box direction={direction}>
       <Link href="/" passHref>
         <Anchor
           label="Home"
@@ -23,7 +35,33 @@ function SidebarFooter() {
   return <Button icon={<Help />} label="About" hoverIndicator />;
 }
 
-function Layout({ children }) {
+function SmallHeader(props: { children: any }) {
+  const [showMenu, setShowMenu] = useState(false);
+  useEffect(() => {
+    return () => setShowMenu(false);
+  }, [props]);
+  return (
+    <Box direction="column">
+      <Header background="light-3">
+        <SidebarHeader direction={"column"} />
+        <Button
+          icon={<Menu />}
+          hoverIndicator
+          onClick={() => setShowMenu(!showMenu)}
+        />
+      </Header>
+      {showMenu && (
+        <Box background="light-3" pad={"medium"}>
+          <Heading>All Posts</Heading>
+          <PostsList />
+        </Box>
+      )}
+      <Main pad="medium">{props.children}</Main>
+    </Box>
+  );
+}
+
+function BigHeader(props: { children: any }) {
   return (
     <Box direction="row" fill>
       <Sidebar
@@ -31,13 +69,27 @@ function Layout({ children }) {
         border="between"
         elevation="medium"
         background="light-3"
-        header={<SidebarHeader />}
+        header={<SidebarHeader direction={"row"} />}
         footer={<SidebarFooter />}
       >
         <PostsList />
       </Sidebar>
-      <Main pad="medium">{children}</Main>
+      <Main pad="medium">{props.children}</Main>
     </Box>
+  );
+}
+
+function Layout({ children }) {
+  return (
+    <ResponsiveContext.Consumer>
+      {(size) =>
+        size === "small" ? (
+          <SmallHeader children={children} />
+        ) : (
+          <BigHeader children={children} />
+        )
+      }
+    </ResponsiveContext.Consumer>
   );
 }
 
