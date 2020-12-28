@@ -1,0 +1,26 @@
+{
+  "name": "this-is-alex",
+  "version": "1.0.0",
+  "description": "Alex's personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grumpytechdude/this-is-alex.git"
+  },
+  "author": "Alex Sinclair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grumpytechdude/this-is-alex/issues"
+  },
+  "homepage": "https://github.com/grumpytechdude/this-is-alex#readme",
+  "dependencies": {
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
