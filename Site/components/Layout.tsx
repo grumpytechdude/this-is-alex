@@ -12,7 +12,6 @@ import {
 import { Help, Menu } from "grommet-icons";
 import PostsList from "./PostsList";
 import Link from "next/link";
-import { Head } from "next/document";
 import { useEffect, useState } from "react";
 
 function SidebarHeader({ direction }) {
@@ -37,6 +36,7 @@ function SidebarFooter() {
 
 function SmallHeader(props: { children: any }) {
   const [showMenu, setShowMenu] = useState(false);
+
   useEffect(() => {
     return () => setShowMenu(false);
   }, [props]);
@@ -85,6 +85,9 @@ function Layout({ children }) {
   return (
     <ResponsiveContext.Consumer>
       {(size) =>
+        typeof window === "undefined" ||
+        size === "xxsmall" ||
+        size === "xsmall" ||
         size === "small" ? (
           <SmallHeader children={children} />
         ) : (
