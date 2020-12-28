@@ -8,10 +8,11 @@ function SidebarHeader() {
     <Box direction="row">
       <Link href="/" passHref>
         <Anchor
+          label="Home"
+          href="#"
           icon={
             <Avatar src="http://1.gravatar.com/avatar/7645d22b73724aa2003df23e72f41921" />
           }
-          href="#"
         />
       </Link>
     </Box>
@@ -19,7 +20,7 @@ function SidebarHeader() {
 }
 
 function SidebarFooter() {
-  return <Button icon={<Help />} hoverIndicator />;
+  return <Button icon={<Help />} label="About" hoverIndicator />;
 }
 
 function Layout({ children }) {
