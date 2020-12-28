@@ -61,7 +61,7 @@ function SmallHeader(props: { children: any }) {
   );
 }
 
-function BigHeader(props: { children: any }) {
+function BigHeader({ children }) {
   return (
     <Box direction="row" fill>
       <Sidebar
@@ -74,7 +74,9 @@ function BigHeader(props: { children: any }) {
       >
         <PostsList />
       </Sidebar>
-      <Main pad="medium">{props.children}</Main>
+      <Main pad="medium" flex={true}>
+        {children}
+      </Main>
     </Box>
   );
 }
