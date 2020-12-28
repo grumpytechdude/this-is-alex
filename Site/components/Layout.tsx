@@ -1,6 +1,6 @@
 import { Anchor, Avatar, Box, Button, Main, Sidebar } from "grommet";
 import { Help } from "grommet-icons";
-import PostsList from "../pages/PostsList";
+import PostsList from "./PostsList";
 import Link from "next/link";
 
 function SidebarHeader() {
