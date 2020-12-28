@@ -45,6 +45,7 @@ function SmallHeader(props: { children: any }) {
       <Header background="light-3">
         <SidebarHeader direction={"column"} />
         <Button
+          label="Menu"
           icon={<Menu />}
           hoverIndicator
           onClick={() => setShowMenu(!showMenu)}
