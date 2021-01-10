@@ -200,6 +200,11 @@ function RichestManInBabylon() {
         comes gradually, because it is a child born of knowledge and persistent
         purpose**
       </Paragraph>
+      <Paragraph>
+        **_He who spends more than he earns is sowing the winds of needless
+        self-indulgence from which he is sure to reap the whirlwinds of trouble
+        and humiliation._**
+      </Paragraph>
       <Heading level="3" margin="small">
         Advice on advice
       </Heading>
@@ -268,6 +273,10 @@ function RichestManInBabylon() {
         long-term debt, wasting your money on renting that debt. _He must pay
         his debts with all promptness within his power, not purchasing that for
         which he is unable to pay._
+      </Paragraph>
+      <Paragraph>
+        **_Ill fortune persues every man who thinks more of borrowing than of
+        repaying._**
       </Paragraph>
       <Heading level="3" margin="small">
         Other People
@@ -348,6 +357,93 @@ function RichestManInBabylon() {
         good luck to oneself, it is necessary to take advantage of
         opportunities. Therefore, in the future, I shall endeavour to make the
         best of such opportunities as do come to me. _
+      </Paragraph>
+      <Heading level="3" margin="small">
+        Now you're wealthy
+      </Heading>
+      <Paragraph>
+        _To earn wealth is but a slight burden upon the thoughtful man. Bearing
+        the burden consistently from year to year accomplishes the final
+        purpose._
+      </Paragraph>
+      <Paragraph>
+        **Wealth changes you, just as it increases your sphere of influence**
+        Like all changes in life, having wealth changes your responsibilities,
+        your skills, your fears, and that which you can accomplish. _Gold
+        bringeth unto its possessor responsibility and a changed position with
+        his fellow men. It bringeth fear lest he lose it or it be tricked away
+        from him. It bringeth a feeling of power and the ability to do good.
+        Likewise, it bringteth opportunities whereby his very good intentions
+        may bring him into difficulties._
+      </Paragraph>
+      <Paragraph>
+        **If you desire to help a friend, do so in a way that will not bring
+        your friend's burdens upon yourself**. Helping others is a social
+        obligation, but your skillset is different from theirs, and so you must
+        help and tackle the problem using your own strengths, not theirs. _And
+        I, retorted the ass, am like many another simplehearted one who starts
+        to help a friend and ends up doing his task for him. Hereafter you draw
+        your own plow, for I did hear the master tell the slave to send for the
+        butcher were you sick again._
+      </Paragraph>
+      <Heading level="4" margin="small">
+        Lending Money
+      </Heading>
+      <Paragraph>
+        **All loans must be well made.** A loan not well-made is a gift, for it
+        is unlikely the money will ever return to you. _Could a loan be well
+        made if the borrower cannot pay? Must not the lender be wise and judge
+        carefully whether his gold can perform a useful purpose to the borrower
+        and return to him oncemore; or whether it will be wasted by one unable
+        to use it wisely and leave him without his treasure, and leave the
+        borrower with a debt he cannot repay?_
+      </Paragraph>
+      <Paragraph>
+        **Humans in the throes of great emotions are not safe risks for the gold
+        lender**
+      </Paragraph>
+      <Paragraph>
+        **You are under no obligation to part with your money unwisely.** _What
+        thy labour earns for thee and what is given thee for reward is thine own
+        and no man can put an obligation upon thee to part with it unless it do
+        be thy wish. If thee wouldst lend it so that it may earn thee more gold,
+        then lend with caution and [where the money lender would lend]. I like
+        not idle gold, even less I like too much of risk._
+      </Paragraph>
+      <Paragraph>
+        **The greater the potential gains, the riskier the investment.** Don't
+        seek to squeeze every last penny from a potential investment. _Be
+        conservative in what thou expect it to earn that thou mayest keep and
+        enjoy thy treasure. To hire it out with a promise of usurious returns is
+        to invite loss._
+      </Paragraph>
+      <Paragraph>
+        **Base your rate of return on historic averages** It's easy to say
+        "don't chase impossible returns", but what are impossible returns? The
+        US has historically seen a 10% growth in the stock market on average
+        every year. That means, on average, it can double in 7 years. _Gold
+        wisely lent may even double itself with its earnings before a man like
+        you grows old._
+      </Paragraph>
+      <Paragraph>
+        **Know how your money will return to you.** Don't invest money with a
+        return of "someday". _Before thou let any piece of gold leave thy pouch
+        be sure that thou hast a safe way to pull it back again._
+      </Paragraph>
+      <Heading level="3" margin="small">
+        _Life Happens_
+      </Heading>
+      <Paragraph>
+        _Babylon endured century after century becasue it was fully protected.
+        It could not afford to be otherwise._
+      </Paragraph>
+      <Paragraph>
+        **Build a bedrock of defences for when tragedy and ill-fortune befall
+        you, as it will befall us all.** The most obvious is an emergency fund.
+        _In this day, behind impregnable walls of insurance, savings accounts,
+        and dependable investments, we can guard ourselves against the
+        unexpected tragedies that may enter any door and seat themselves before
+        any fireside. We cannot afford to be without adequate protection._
       </Paragraph>
     </Box>
   );
